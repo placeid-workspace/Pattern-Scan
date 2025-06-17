@@ -1,4 +1,4 @@
-#include "PatternScanner.h"
+#include "PatternScan.hpp"
 
 PatternScanner::PatternScanner(HMODULE module) {
     auto dos = reinterpret_cast<PIMAGE_DOS_HEADER>(module);
