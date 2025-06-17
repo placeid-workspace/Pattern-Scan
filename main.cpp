@@ -1,4 +1,4 @@
-#include "PatternScanner.h"
+#include "PatternScan.hpp"
 
 int main() {
     PatternScanner scanner(GetModuleHandle(nullptr));
